@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #4b8bec; color: white; padding: 1rem; text-align: center; }
+.tabs { display: flex; justify-content: space-around; background: #eee; }
+.tabs button { flex: 1; padding: 1rem; border: none; background: none; font-size: 1rem; }
+.tabs .active { background: #ddd; }
+.view { padding: 1rem; }
+.hidden { display: none; }
+.fab { position: fixed; bottom: 1rem; right: 1rem; width: 3rem; height: 3rem; border-radius: 50%; background: #4b8bec; color: white; font-size: 2rem; border: none; }
+#modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; }
+.modal-content { background: white; padding: 1rem; border-radius: 4px; min-width: 200px; }
+#planner-hours { display: grid; grid-template-columns: 1fr; gap: 0.5rem; }
+.hour-block { border: 1px solid #ccc; padding: 0.5rem; height: 50px; }
